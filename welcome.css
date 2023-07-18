@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'lato', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+  }
+
+  .welcomescreen{
+    display: flex;
+  }
+  
+  
+  .sss{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2.5rem;
+    color: rgb(32, 64, 111);
+    z-index: 2000;
+    padding: 20px;
+  }
+  
+  #btnn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #e2e2e2;
+    font-size: 1rem;
+  padding: 20px 30px;
+  }
+  /* .form{
+    color: blue;
+    display: flex;
+
+  } */
+
+
+
+  #myTable {
+    border-collapse: collapse;
+    width: 100%;
+    position: absolute;
+    top: 20vh;
+
+  }
+  
+  #myTable td, #myTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #myTable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #myTable tr:hover {background-color: #ddd;}
+  
+  #myTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+.csvdwload{
+    position: absolute;
+    top: 0;
+    right: 16vh;
+    margin: 20px;
+    padding: 20px 20px;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+    font-weight: 300;
+}
+.csvdwload:hover{
+    background-color: #01935e;
+}
